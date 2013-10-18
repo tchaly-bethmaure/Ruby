@@ -3,12 +3,12 @@
 require 'Personne'
 
 personnnes_de_passage = []
-personnnes_de_passage[] = Personne.new("Tchaly")
+personnnes_de_passage.push(Personne.new("Tchaly"))
 
 
-personnnes_de_epassage.each {
+personnnes_de_passage.each {
   |personne|
-  print("#{personne.get_nom} ")
+  print("#{personne.get_nom}, ")
 }
 
-print(" sont passés par là !")
+print("sont passes par la !")

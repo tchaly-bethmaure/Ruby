@@ -5,12 +5,8 @@
 class Personne
   # Init
   def initialize(nom)
-    if(nom == "")
-      @nom = "Nobody"
-    else
       @nom = nom
-    end
-  end
+  end  
  
   def set_nom(nom)
     @nom = nom

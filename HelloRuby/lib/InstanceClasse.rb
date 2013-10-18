@@ -3,7 +3,7 @@
 # and open the template in the editor.
 require 'Personne'
 
-p = Personne.new
+p = Personne.new("Nobody")
 puts "ToString de notre personne : #{p.to_s}."
 puts "Nom de la personne creee : #{p.get_nom}."
 p.set_nom("Dude")
